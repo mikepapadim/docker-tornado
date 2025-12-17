@@ -37,7 +37,7 @@ SHELL ["/bin/bash", "-c", "source /tornado/tornado/source.sh"]
 ## ENV-Variables Taken from the SOURCE.sh
 ENV JAVA_HOME=/tornado/tornado/etc/dependencies/TornadoVM-graalvm-jdk-17/graalvm-ce-java17-22.3.2
 ENV PATH=/tornado/tornado/bin/bin:$PATH
-ENV TORNADO_SDK=/tornado/tornado/bin/sdk
+ENV TORNADOVM_HOME=/tornado/tornado/bin/sdk
 ENV TORNADO_ROOT=/tornado/tornado 
 
 ## Download NodeJS NPM packages

@@ -56,7 +56,7 @@ SHELL ["/bin/bash", "-c", "source /tornado-dev/tornado/setvars.sh"]
 ## ENV-Variables Taken from the SOURCE.sh
 ENV JAVA_HOME=/tornado-dev/tornado/etc/dependencies/TornadoVM-graal-jdk-21/graalvm-community-openjdk-21.0.1+12.1
 ENV PATH=/tornado-dev/tornado/bin/bin:$PATH
-ENV TORNADO_SDK=/tornado-dev/tornado/bin/sdk
+ENV TORNADOVM_HOME=/tornado-dev/tornado/bin/sdk
 ENV TORNADO_ROOT=/tornado-dev/tornado 
 ENV GRAALJS_HOME=/graaljs-dev/graal/sdk/mxbuild/linux-amd64/GRAALVM_3AF13F6F38_JAVA21/graalvm-3af13f6f38-java21-23.1.0-dev
 
